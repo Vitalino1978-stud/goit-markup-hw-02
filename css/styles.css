@@ -1,0 +1,84 @@
+.top-section {
+  background: #2f303a;
+}
+.top-section-item {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+}
+.advantage-item {
+  font-weight: bold;
+  font-size: 14px;
+  color: #212121;
+}
+.advantage-description {
+  font-size: 14px;
+  color: #757575;
+}
+.profile {
+  font-weight: bold;
+  font-size: 36px;
+  color: #212121;
+}
+.our-team {
+  font-weight: bold;
+  font-size: 36px;
+  color: #212121;
+  background: #f5f4fa;
+}
+.team-members {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+}
+.member-description {
+  font-weight: normal;
+  font-size: 16px;
+  color: #757575;
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+.list-item:hover,
+.list-item:focus,
+.list-item:active {
+  color: #2196f3;
+}
+
+.knob-item {
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.knob-item:hover,
+.knob-item:focus,
+.knob-item:active {
+  color: #ffffff;
+  background: #2196f3;
+}
+.footer {
+  background: #2f303a;
+}
+.addres {
+  font-style: normal;
+  color: #ffffff;
+}
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.company-works {
+  font-weight: bold;
+  font-size: 18px;
+  color: #212121;
+}
+.description {
+  font-weight: normal;
+  font-size: 16px;
+  color: #757575;
+}
