@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <!--шапка страницы-->
@@ -13,7 +17,7 @@
       <nav>
         <!--логтип-->
         <!--<img src="./imj/logo.jpg" alt="логотип компании" width="145" height="31" />-->
-        <a href="WebStudio">WebStudio</a>
+        <a class="logo-link" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
 
         <!--ссылки на разделы-->
         <div>
@@ -26,22 +30,22 @@
         <!--контактная информация-->
         <div>
           <div>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="conts" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </div>
           <div>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="conts" href="tel:+380961111111">+38 096 111 11 11</a>
           </div>
         </div>
       </nav>
     </header>
     <main>
       <!--ссылки на виды работ-->
-      <ul class="knob">
-        <a href="Все"><button class="knob-item" type="button">Все</button></a>
-        <a href="Веб-сайты"> <button class="knob-item" type="button">Веб-сайты</button></a>
-        <a href="Приложения"> <button class="knob-item" type="button">Приложения</button></a>
-        <a href="Дизайн"><button class="knob-item" type="button">Дизайн</button></a>
-        <a href="Маркетинг"><button class="knob-item" type="button">Маркетинг</button></a>
+      <ul class="knobs">
+        <a href="Все"><button class="knobs-item" type="button">Все</button></a>
+        <a href="Веб-сайты"> <button class="knobs-item" type="button">Веб-сайты</button></a>
+        <a href="Приложения"> <button class="knobs-item" type="button">Приложения</button></a>
+        <a href="Дизайн"><button class="knobs-item" type="button">Дизайн</button></a>
+        <a href="Маркетинг"><button class="knobs-item" type="button">Маркетинг</button></a>
       </ul>
 
       <!--Работы компании-->
@@ -59,7 +63,7 @@
           <figure>
             <img src="./imj-portfolio/imgPoster.jpg" alt="два баскетболиста борются за мяч" width="370" height="294" />
             <figcaption>
-              <pre><h2 class="company-works">Постер <span lang="en"> New Orlean vs Golden star </span></h2></pre>
+              <pre><h2 class="company-works">Постер <span lang="en">New Orlean vs Golden star</span></h2></pre>
               <p class="description">Дизайн</p>
             </figcaption>
           </figure>
@@ -68,7 +72,7 @@
           <figure>
             <img src="./imj-portfolio/imgSeaFood.jpg" alt="логотип ресторана" width="370" height="294" />
             <figcaption>
-              <pre><h2 class="company-works">Ресторан <span lang="en"> Seafood </span></h2></pre>
+              <pre><h2 class="company-works">Ресторан <span lang="en">Seafood</span></h2></pre>
               <p class="description">Приложение</p>
             </figcaption>
           </figure>
@@ -77,7 +81,7 @@
           <figure>
             <img src="./imj-portfolio/imgPrime.jpg" alt="наушники" width="370" height="294" />
             <figcaption>
-              <pre><h2 class="company-works">Проект <span lang="en"> Prime </span></h2></pre>
+              <pre><h2 class="company-works">Проект<span lang="en"> Prime</span></h2></pre>
               <p class="description">Маркетинг</p>
             </figcaption>
           </figure>
@@ -86,8 +90,8 @@
           <figure>
             <img src="./imj-portfolio/imgBoxes.png" alt="две коробки" width="370" height="294" />
             <figcaption>
-              <pre><h2 class="company-works">Проект <span lang="en"> Boxes </span></h2></pre>
-              <p>class="description"Приложение</p>
+              <pre><h2 class="company-works">Проект <span lang="en"> Boxes</span></h2></pre>
+              <p class="description">Приложение</p>
             </figcaption>
           </figure>
         </li>
@@ -130,7 +134,7 @@
       </ul>
     </main>
     <footer class="footer">
-      <a href=" WebStudio">WebStudio</a>
+      <a class="logo-link" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
 
       <address class="addres">г. Киев, пр-т Леси Украинки, 26</address>
 
