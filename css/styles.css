@@ -91,6 +91,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
+.profile-description {
+  list-style: none;
+}
 .profile {
   font-family: Roboto;
   font-style: normal;
@@ -100,6 +103,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+.team-description {
+  list-style: none;
 }
 .our-team {
   font-family: Roboto;
@@ -111,6 +117,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background: #f5f4fa;
+  list-style: none;
 }
 .team-members {
   font-family: Roboto;
@@ -122,6 +129,7 @@ body {
   /*text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  list-style: none;
 }
 .member-description {
   font-family: Roboto;
@@ -134,7 +142,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
-
+.list {
+  list-style: none;
+}
 .list-item {
   font-family: Roboto;
   font-style: normal;
@@ -143,7 +153,6 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  text-decoration: none;
 }
 .list-item:hover,
 .list-item:focus,
@@ -215,6 +224,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--mail-footer-color);
   text-decoration: none;
+}
+.work-description {
+  list-style: none;
 }
 .company-works {
   font-family: Roboto;
